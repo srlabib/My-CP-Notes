@@ -1,4 +1,4 @@
-## How many ways are there to tile $2*n$ size rectangle with $2*1$ tiles? ($n$ is even)
+## How many ways are there to tile `2*n` size rectangle with `2*1` tiles? (n is even)
 ---
 The main observation is here we can 
 * either place a tile vertically covering `2*1` area 
