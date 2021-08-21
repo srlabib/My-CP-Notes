@@ -9,14 +9,16 @@ There is one way to tile `2*1` size rectangle
   
 and 2 ways to tile `2*2` size rectangle-
 * Placing two tiles vertically.
-* Placing two tiles.
+* Placing two tiles horizontally.
   
-Suppose there are $f(n)$ ways to tile the rectangles.
+Suppose there are `f(n)` ways to tile the rectangles.
 
 so  `f(n) = f(n-1) + f(n-2)`
 
-The base cases `f(1) = 1` and `f(2) = 2`  
+Here `f(1) = 1` and `f(2) = 2`  
 
 
 It seems like Fibonacci right? Exactly! the answer is from the Fibonacci series.
 So we just need to write a code for Fibonacci.
+
+---
