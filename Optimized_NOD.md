@@ -1,11 +1,11 @@
 
-# Calculating NOD of a number in $O(n^{1/3})$
-To find NOD(N), first we wrtie N as a product of two number X*Y. Here all the prime factors of x are less than equal $n^{1/3}$. Therefore, rest of the prime factors are in Y; Hence the GCD(X,Y) = 1. 
+# Calculating Number of divisors(NOD) of a number in $O(n^{1/3})$
+To find NOD(N), first we wrtie N as a product of two numbers X*Y. Here all the prime factors of x are less than equal $n^{1/3}$. Therefore, rest of the prime factors are in Y; Hence the GCD(X,Y) = 1. 
 
 We can easily proof that $NOD(X * Y) = NOD(X) * NOD(Y)$ when gcd(x,y) = 1
 
 ## calculating NOD of X
-We can calculate the NOD(X) using the nieve prime factorisation of N up to the primes under $N^{1/3}$ 
+We can calculate the NOD(X) using the naive method of prime factorisation of N by considering only primes up to $N^{1/3}$ 
 
 if $X = {p_1}^{n_1}*{p_2}^{n_2}{p_3}^{n_3}...$
 
