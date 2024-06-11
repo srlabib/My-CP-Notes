@@ -7,9 +7,10 @@ We can easily proof that $NOD(X * Y) = NOD(X) * NOD(Y)$ when gcd(x,y) = 1
 ## calculating NOD of X
 We can calculate the NOD(X) using the naive method of prime factorisation of N by considering only primes up to $N^{1/3}$ 
 
-if $X = {p_1}^{n_1}*{p_2}^{n_2}{p_3}^{n_3}...$
+$\text{if } X = {p_1}^{n_1}\times{p_2}^{n_2}\times{p_3}^{n_3}...$
 
-Then $NOD(X) = ({n_1+1})*({n_2+1})*({n_3+1})....$
+$\text{Then } \text{NOD}(X) = (n_1 + 1) \times (n_2 + 1) \times (n_3 + 1) \times \ldots$
+
 
 ## calculating NOD of Y
 Now in case of Y, as all the prime factors are greater than $N^{1/3}$ so Y is at most multiple of two prime numbers.
