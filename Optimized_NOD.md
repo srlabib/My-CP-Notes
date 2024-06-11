@@ -22,3 +22,4 @@ So we can see there are only four cases which will cover all the possibilities.
 For primality test we will use efficient Miller Rabin primality test algorith
 
 [code in C++](https://github.com/srlabib/Competitve-programming-equipments/blob/main/Number%20Theory/Optimized_NOD.cpp) 
+[Source](https://www.dropbox.com/scl/fi/xulvu4frs0a7z740v6cqw/divisors.pdf?rlkey=p9eipf697zoihfzsuf8oqwzf2&e=1&dl=0)
